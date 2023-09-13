@@ -112,8 +112,7 @@ background: var(--WHITE, #FFF);}
                     letter-spacing: 0.02em;
                 }
         
-                .section-advantages-main-button a:hover {
-                    
+                .section-advantages-main-button {
                     color: var(--WHITE, #FFF);
                     /* Button Text */
                     font-family: Roboto;
