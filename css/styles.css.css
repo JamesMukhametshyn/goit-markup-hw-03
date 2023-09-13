@@ -139,7 +139,7 @@ background: var(--WHITE, #FFF);}
                     font-size: 16px;
                     font-weight: 400;
                     line-height: 1.5;
-                    letter-spacing: 0.02px;}
+                    letter-spacing: 0.02em;}
 
                 .section-team-content {
                     background: var(--CLOUD, #F4F4FD);}
@@ -153,7 +153,7 @@ background: var(--WHITE, #FFF);}
                     font-size: 36px;
                     font-weight: 700;
                     line-height: 1.11;
-                    letter-spacing: 0.02pxpx;
+                    letter-spacing: 0.02em;
                     text-transform: capitalize;}
 
                      .section-team-subtopic { 
@@ -198,7 +198,8 @@ background: var(--WHITE, #FFF);}
                         border: 1px solid var(--CORNFLOWER, #E7E9FC);
                         background: var(--WHITE, #FFF);}
         
-                .section-wark-img {width: 360px;
+                .section-wark-img {
+                    width: 360px;
                     height: 300px;
                     flex-shrink: 0;}
         
@@ -221,7 +222,7 @@ background: var(--WHITE, #FFF);}
                     letter-spacing: 0.02em;}
         
                       .footer-text-part{   color: var(--CLOUD, #F4F4FD);
-                         font-family: Raleway sans-serif;
+                         font-family: Raleway ;
                          font-size: 18px;
                          font-style: normal;
                          font-weight: 700;
