@@ -193,12 +193,12 @@ background: var(--WHITE, #FFF);}
                     font-size: 36px;
                     font-weight: 700;
                     line-height: 1.11;
-                    letter-spacing: 0.02px;
+                    letter-spacing: 0.02em;
                     text-transform: capitalize;}
 
                       .section-team-subtopic { 
-                        border: 1px solid var(--CORNFLOWER, #E7E9FC);
-                        background: var(--WHITE, #FFF);}
+                        border: 1px solid #E7E9FC;
+                        background:  #FFF;}
         
                 .section-warck-img {
                     width: 360px;
@@ -206,22 +206,96 @@ background: var(--WHITE, #FFF);}
                     flex-shrink: 0;}
         
                 .section-warck-title {color: var(--NAVY-BLUE, #2E2F42);
-                
-                    /* Header 3 */
                     font-family: Roboto;
                     font-size: 20px;
                     font-weight: 500;
                     line-height: 1.2;
                     letter-spacing: 0.02em;}
-        
-                .section-warck-text {color: var(--SLATE, #434455);
-                
-                    /* Body */
+
+                    .section-warck-title-bank{color: var(--NAVY-BLUE, #2E2F42);
+                        font-family: Roboto;
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 1.2;
+                        letter-spacing: 0.02em;}
+                    .section-warck-title-cachless{color: var(--NAVY-BLUE, #2E2F42);
+                        font-family: Roboto;
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 1.2;
+                        letter-spacing: 0.02em;}
+                    .section-warck-title-meditation{color: var(--NAVY-BLUE, #2E2F42);
+                        font-family: Roboto;
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 1.2;
+                        letter-spacing: 0.02em;}
+                    .section-warck-title-taxi{color: var(--NAVY-BLUE, #2E2F42);
+                        font-family: Roboto;
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 1.2;
+                        letter-spacing: 0.02em;}                  
+                    .section-warck-title-screen {color: var(--NAVY-BLUE, #2E2F42);
+                        font-family: Roboto;
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 1.2;
+                        letter-spacing: 0.02em;}
+                    .section-warck-title-online {color: var(--NAVY-BLUE, #2E2F42);
+                        font-family: Roboto;
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 1.2;
+                        letter-spacing: 0.02em;}
+                        
+                        .section-warck-text-bank{
+                            color: var(--SLATE, #434455);
+                            font-family: Roboto;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 1.5;
+                            letter-spacing: 0.02em;}
+                            .section-warck-text-cachless{
+                            color: var(--SLATE, #434455);
+                            font-family: Roboto;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 1.5;
+                            letter-spacing: 0.02em;}
+                    .section-warck-text-meditation {
+                        color: var(--SLATE, #434455);
+                        font-family: Roboto;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 1.5;
+                        letter-spacing: 0.02em;
+                    }
+                         .section-warck-text-taxi {
+                             color: var(--SLATE, #434455);
+                             font-family: Roboto;
+                            font-size: 16px;
+                             font-weight: 400;
+                             line-height: 1.5;
+                             letter-spacing: 0.02em;
+                                        }
+                            .section-warck-text-screen {
+                                color: var(--SLATE, #434455);
+                                font-family: Roboto;
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 1.5;
+                                letter-spacing: 0.02em;
+                            }
+                .section-warck-text-online {
+                    color: var(--SLATE, #434455);
                     font-family: Roboto;
                     font-size: 16px;
                     font-weight: 400;
                     line-height: 1.5;
-                    letter-spacing: 0.02em;}
+                    letter-spacing: 0.02em;
+                }
+
         
                       .footer-text-part{   color: var(--CLOUD, #F4F4FD);
                          font-family: Raleway ;
@@ -233,8 +307,6 @@ background: var(--WHITE, #FFF);}
                          text-transform: uppercase;}
         
                 .footer-text {color: var(--CLOUD, #F4F4FD);
-                
-                    /* Body */
                     font-family: Roboto;
                     font-size: 16px;
                     font-weight: 400;
