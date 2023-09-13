@@ -42,10 +42,8 @@ background: var(--WHITE, #FFF);}
         margin-left: 200px;
         margin-right: 1169px;}
 
-        .navigation-title-contacts {margin-top: 24px;
-        margin-bottom: 24px;
-        margin-left: 347px;
-        margin-right: 832px;
+        .navigation-title-contacts a:hover {
+            color: #404bbf
         }
             
 
@@ -114,7 +112,8 @@ background: var(--WHITE, #FFF);}
                     letter-spacing: 0.02em;
                 }
         
-                .section-advantages-main-button {
+                .section-advantages-main-button a:hover {
+                    
                     color: var(--WHITE, #FFF);
                     /* Button Text */
                     font-family: Roboto;
