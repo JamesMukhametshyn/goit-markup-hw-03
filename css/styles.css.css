@@ -16,7 +16,8 @@ button {
 }
 
 
-.navigation-content .adress-content {border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+.navigation-content .adress-content {
+border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
 background: var(--WHITE, #FFF);}
 
 
@@ -59,8 +60,8 @@ background: var(--WHITE, #FFF);}
                     letter-spacing: 0.02px;
                     }
         
-                .navigation-portfolio {color: var(--NAVY-BLUE, #2E2F42);
-                
+                .navigation-portfolio 
+                {color: var(--NAVY-BLUE, #2E2F42);
                     /* Body Medium */
                     font-family: Roboto;
                     font-size: 16px;
@@ -69,8 +70,8 @@ background: var(--WHITE, #FFF);}
                     letter-spacing: 0.02px;
                     }
         
-                .navigation-contacts {color: var(--NAVY-BLUE, #2E2F42);
-                
+                .navigation-contacts {
+                    color: var(--NAVY-BLUE, #2E2F42);
                     /* Body Medium */
                     font-family: Roboto;
                     font-size: 16px;
@@ -79,8 +80,8 @@ background: var(--WHITE, #FFF);}
                     letter-spacing: 0.02px;
                     }
         
-                .adress-mail {color: var(--SLATE, #434455);
-                
+                .adress-mail {
+                    color: var(--SLATE, #434455);
                     /* Body */
                     font-family: Roboto;
                     font-size: 16px;
@@ -88,8 +89,8 @@ background: var(--WHITE, #FFF);}
                     line-height: 1.5;
                     letter-spacing: 0.02px;}
         
-                .adress-tel {color: var(--SLATE, #434455);
-                
+                .adress-tel {
+                    color: var(--SLATE, #434455);
                     /* Body */
                     font-family: Roboto;
                     font-size: 16px;
@@ -97,10 +98,12 @@ background: var(--WHITE, #FFF);}
                     line-height: 1.5;
                     letter-spacing: 0.02px;}
 
-        .section-advantages-content {background: var(--NAVY-BLUE, #2E2F42);
+        .section-advantages-content {
+        background: var(--NAVY-BLUE, #2E2F42);
         text-align: center;}
                
-        .section-advantages-topic {color: var(--WHITE, #FFF);
+        .section-advantages-topic {
+            color: var(--WHITE, #FFF);
                     text-align: center;
                 
                     /* Header 1 */
@@ -111,18 +114,21 @@ background: var(--WHITE, #FFF);}
                     letter-spacing: 0.02px;
                 }
         
-                .section-advantages-main-button {color: var(--WHITE, #FFF);
-                
+                .section-advantages-main-button {
+                    color: var(--WHITE, #FFF);
                     /* Button Text */
                     font-family: Roboto;
                     font-size: 16px;
                     font-weight: 500;
                     line-height: 1.5;
                     letter-spacing: 0.04px;
+                    border-radius: 4px;
+                    background: var(--IRIS, #4D5AE5);
+                    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
                 }
         
-                .section-advantages-title {color: var(--NAVY-BLUE, #2E2F42);
-                
+                .section-advantages-title {
+                    color: var(--NAVY-BLUE, #2E2F42);
                     /* Header 3 */
                     font-family: Roboto;
                     font-size: 20px;
@@ -130,8 +136,8 @@ background: var(--WHITE, #FFF);}
                     line-height: 1.2;
                     letter-spacing: 0.02px;}
         
-                .section-advantages-text {color: var(--SLATE, #434455);
-                
+                .section-advantages-text {
+                    color: var(--SLATE, #434455);
                     /* Body */
                     font-family: Roboto;
                     font-size: 16px;
@@ -139,9 +145,11 @@ background: var(--WHITE, #FFF);}
                     line-height: 1.5;
                     letter-spacing: 0.02px;}
 
-                .section-team-content {background: var(--CLOUD, #F4F4FD);}
+                .section-team-content {
+                    background: var(--CLOUD, #F4F4FD);}
         
-                .section-team-topic {color: var(--NAVY-BLUE, #2E2F42);
+                .section-team-topic {
+                    color: var(--NAVY-BLUE, #2E2F42);
                     text-align: center;
                 
                     /* Header 2 */
@@ -151,23 +159,27 @@ background: var(--WHITE, #FFF);}
                     line-height: 1.11;
                     letter-spacing: 0.02pxpx;
                     text-transform: capitalize;}
+
+                     .section-team-subtopic { 
+                        border: 1px solid var(--CORNFLOWER, #E7E9FC);
+                        background: var(--WHITE, #FFF);}
         
-                .section-team-img {width: 264px;
+                .section-team-img {
+                    width: 264px;
                     height: 260px;}
         
-                .section-team-name {color: var(--NAVY-BLUE, #2E2F42);
+                .section-team-name {
+                    color: var(--NAVY-BLUE, #2E2F42);
                     text-align: center;
-                
-                    /* Header 3 */
                     font-family: Roboto;
                     font-size: 20px;
                     font-weight: 500;
                     line-height: 1.2;
                     letter-spacing: 0.02px;}
         
-                .section-team-wark {color: var(--SLATE, #434455);
+                .section-team-wark {
+                    color: var(--SLATE, #434455);
                     text-align: center;
-                
                     /* Body */
                     font-family: Roboto;
                     font-size: 16px;
@@ -175,9 +187,9 @@ background: var(--WHITE, #FFF);}
                     line-height: 1.5;
                     letter-spacing: 0.02px;}
         
-                .section-wark-topic {color: var(--NAVY-BLUE, #2E2F42);
+                .section-wark-topic {
+                    color: var(--NAVY-BLUE, #2E2F42);
                     text-align: center;
-                
                     /* Header 2 */
                     font-family: Roboto;
                     font-size: 36px;
@@ -185,6 +197,10 @@ background: var(--WHITE, #FFF);}
                     line-height: 1.11;
                     letter-spacing: 0.02px;
                     text-transform: capitalize;}
+
+                      .section-team-subtopic { 
+                        border: 1px solid var(--CORNFLOWER, #E7E9FC);
+                        background: var(--WHITE, #FFF);}
         
                 .section-wark-img {width: 360px;
                     height: 300px;
