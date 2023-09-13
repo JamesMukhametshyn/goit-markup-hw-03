@@ -25,7 +25,7 @@ background: var(--WHITE, #FFF);}
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -34,7 +34,7 @@ background: var(--WHITE, #FFF);}
         font-family: Raleway;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         margin-top: 25.5px;
@@ -183,7 +183,7 @@ background: var(--WHITE, #FFF);}
                     line-height: 1.5;
                     letter-spacing: 0.02em;}
         
-                .section-wark-topic {
+                .section-warck-topic {
                     color: var(--NAVY-BLUE, #2E2F42);
                     text-align: center;
                     /* Header 2 */
@@ -198,12 +198,12 @@ background: var(--WHITE, #FFF);}
                         border: 1px solid var(--CORNFLOWER, #E7E9FC);
                         background: var(--WHITE, #FFF);}
         
-                .section-wark-img {
+                .section-warck-img {
                     width: 360px;
                     height: 300px;
                     flex-shrink: 0;}
         
-                .section-wark-title {color: var(--NAVY-BLUE, #2E2F42);
+                .section-warck-title {color: var(--NAVY-BLUE, #2E2F42);
                 
                     /* Header 3 */
                     font-family: Roboto;
@@ -212,7 +212,7 @@ background: var(--WHITE, #FFF);}
                     line-height: 1.2;
                     letter-spacing: 0.02em;}
         
-                .section-wark-text {color: var(--SLATE, #434455);
+                .section-warck-text {color: var(--SLATE, #434455);
                 
                     /* Body */
                     font-family: Roboto;
