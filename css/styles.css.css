@@ -1,7 +1,8 @@
 body {
     background: var(--WHITE, #FFF);
+    color: #434455;
     font-family: 'Raleway', sans-serif;
-        font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     }
 
 ul {
