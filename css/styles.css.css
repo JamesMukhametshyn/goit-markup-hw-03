@@ -116,7 +116,7 @@ background: var(--WHITE, #FFF);}
                 }
         
                 .section-advantages-main-button a:hover {
-                    color: var(--WHITE, #FFF);
+                    color: var(--WHITE, #ffffff);
                     /* Button Text */
                     font-family: 'Roboto', sans-serif;
                     font-size: 16px;
