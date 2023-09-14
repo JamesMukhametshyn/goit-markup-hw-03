@@ -62,15 +62,22 @@ background:  #FFF;}
                 
                     
      .adreess-main{
-     font-style: normal;}
+     font-style: normal;
+    color: #434455;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;}
 
                   .adress-mail:hover,
                   .adress-mail:focus {
                       color: #404bbf;
+                    font-style: normal;
                   }
                  .adress-tel:hover,
                  .adress-tel:focus {
                      color: #404bbf;
+                    font-style: normal;
                  }
 
                 .adress-mail{
