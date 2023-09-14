@@ -115,22 +115,22 @@ background: var(--WHITE, #FFF);}
                     letter-spacing: 0.02em;
                 }
         
+                .section-advantages-main-backgraund{border-radius: 4px;
+                    background: #4D5AE5;
+                    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);}
+
                 .section-advantages-main-button a:hover {
                     color: var(--WHITE, #ffffff);
-                    /* Button Text */
                     font-family: 'Roboto', sans-serif;
                     font-size: 16px;
                     font-weight: 500;
                     line-height: 1.5;
                     letter-spacing: 0.04em;
-                    border-radius: 4px;
-                    background:  #4D5AE5;
-                    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+                    
                 }
         
                 .section-advantages-title {
                     color: var(--NAVY-BLUE, #2E2F42);
-                    /* Header 3 */
                     font-family: Roboto;
                     font-size: 20px;
                     font-weight: 500;
@@ -139,7 +139,6 @@ background: var(--WHITE, #FFF);}
         
                 .section-advantages-text {
                     color: var(--SLATE, #434455);
-                    /* Body */
                     font-family: Roboto;
                     font-size: 16px;
                     font-weight: 400;
@@ -152,8 +151,6 @@ background: var(--WHITE, #FFF);}
                 .section-team-topic {
                     color: var(--NAVY-BLUE, #2E2F42);
                     text-align: center;
-                
-                    /* Header 2 */
                     font-family: Roboto;
                     font-size: 36px;
                     font-weight: 700;
