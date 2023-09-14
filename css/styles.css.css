@@ -154,9 +154,9 @@ background: var(--WHITE, #FFF);}
                         border: 1px solid var(--CORNFLOWER, #E7E9FC);
                         background: var(--WHITE, #FFF);}
         
-                .section-team-img {
-                    width: 264px;
-                    height: 260px;}
+                .section-team-img 
+                    /* width: 264px;
+                    height: 260px;} */
         
                 .section-team-name {
                     color: var(--NAVY-BLUE, #2E2F42);
@@ -191,8 +191,8 @@ background: var(--WHITE, #FFF);}
                         background:  #FFF;}
         
                 .section-warck-img {
-                    width: 360px;
-                    height: 300px;
+                    /* width: 360px;
+                    height: 300px; */
                     flex-shrink: 0;}
         
                 .section-warck-title {color: var(--NAVY-BLUE, #2E2F42);
