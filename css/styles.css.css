@@ -97,9 +97,16 @@ background:  #FFF;}
         
                 .section-advantages-main-backgraund{border-radius: 4px;
                     background: #4D5AE5;
-                    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);}
+                   }
 
-                .section-advantages-main-button a:hover {
+.section-advantages-main-button:focus {
+    background-color: #404BBF
+}
+.section-advantages-main-button:hover {
+    background-color: #404BBF
+}
+
+                .section-advantages-main-button {
                     color: #ffffff;
                     font-family: 'Roboto', sans-serif;
                     font-size: 16px;
