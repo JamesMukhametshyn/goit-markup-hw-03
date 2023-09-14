@@ -41,14 +41,17 @@ background: var(--WHITE, #FFF);}
         text-transform: uppercase;
         }
 
-        .navigation-title-contacts a:hover a:focus {
+        .navigation-title-contacts:hover .navigation-title-contacts:focus {
             color: #404bbf;
            
         }
-            
+         .navigation-item:hover,
+        .navigation-item:focus {
+                            color: #404bbf;
+                        }
 
     
-    .navigation-studio {color: var(--NAVY-BLUE, #2E2F42);
+    .navigation-item {color:#2E2F42;
                     font-family: Roboto;
                     font-size: 16px;
                     font-weight: 500;
@@ -56,23 +59,8 @@ background: var(--WHITE, #FFF);}
                     letter-spacing: 0.02em;
                     }
         
-                .navigation-portfolio 
-                {color: var(--NAVY-BLUE, #2E2F42);
-                    font-family: Roboto;
-                    font-size: 16px;
-                    font-weight: 500;
-                    line-height: 1.5;
-                    letter-spacing: 0.02em;
-                    }
-        
-                .navigation-contacts {
-                    color: var(--NAVY-BLUE, #2E2F42);
-                    font-family: Roboto;
-                    font-size: 16px;
-                    font-weight: 500;
-                    line-height: 1.5;
-                    letter-spacing: 0.02em;
-                    }
+                
+                    
                     .adress-main{
                         font-style: normal;}
 
@@ -81,7 +69,7 @@ background: var(--WHITE, #FFF);}
                 .adress-mail .adress-tel a:hover {color: #404bbf;}
 
                 .adress-mail .adress-tel a:focus{color: #404bbf;}
-                
+
                 .adress-mail{
                     font-family: Roboto;
                     font-size: 16px;
@@ -97,11 +85,11 @@ background: var(--WHITE, #FFF);}
                     letter-spacing: 0.02em;}
 
         .section-advantages-content {
-        background: var(--NAVY-BLUE, #2E2F42);
+        background:  #2E2F42;
         text-align: center;}
                
         .section-advantages-topic {
-            color: var(--WHITE, #FFF);
+            color: #FFF;
                     text-align: center;
                     font-family: Roboto;
                     font-size: 56px;
@@ -115,7 +103,7 @@ background: var(--WHITE, #FFF);}
                     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);}
 
                 .section-advantages-main-button a:hover {
-                    color: var(--WHITE, #ffffff);
+                    color: #ffffff;
                     font-family: 'Roboto', sans-serif;
                     font-size: 16px;
                     font-weight: 500;
@@ -141,10 +129,10 @@ background: var(--WHITE, #FFF);}
                     letter-spacing: 0.02em;}
 
                 .section-team-content {
-                    background: var(--CLOUD, #F4F4FD);}
+                    background: #F4F4FD);}
         
                 .section-team-topic {
-                    color: var(--NAVY-BLUE, #2E2F42);
+                    color:#2E2F42;
                     text-align: center;
                     font-family: Roboto;
                     font-size: 36px;
@@ -154,15 +142,15 @@ background: var(--WHITE, #FFF);}
                     text-transform: capitalize;}
 
                      .section-team-subtopic { 
-                        border: 1px solid var(--CORNFLOWER, #E7E9FC);
-                        background: var(--WHITE, #FFF);}
+                        border: 1px solid  #E7E9FC);
+                        background:  #FFF);}
         
                 .section-team-img {
                     width: 264px;
                     height: 260px;}
         
                 .section-team-name {
-                    color: var(--NAVY-BLUE, #2E2F42);
+                    color: #2E2F42;
                     text-align: center;
                     font-family: Roboto;
                     font-size: 20px;
@@ -171,7 +159,7 @@ background: var(--WHITE, #FFF);}
                     letter-spacing: 0.02em;}
         
                 .section-team-wark {
-                    color: var(--SLATE, #434455);
+                    color:  #434455;
                     text-align: center;
                     font-family: Roboto;
                     font-size: 16px;
@@ -198,38 +186,38 @@ background: var(--WHITE, #FFF);}
                     height: 300px;
                     flex-shrink: 0;}
         
-                .section-warck-title {color: var(--NAVY-BLUE, #2E2F42);
+                .section-warck-title {color:  #2E2F42;
                     font-family: Roboto;
                     font-size: 20px;
                     font-weight: 500;
                     line-height: 1.2;
                     letter-spacing: 0.02em;}
 
-                    .section-warck-title-bank{color: var(--NAVY-BLUE, #2E2F42);
+                    .section-warck-title-bank{color:  #2E2F42;
                         font-family: Roboto;
                         font-size: 20px;
                         font-weight: 500;
                         line-height: 1.2;
                         letter-spacing: 0.02em;}
-                    .section-warck-title-cachless{color: var(--NAVY-BLUE, #2E2F42);
+                    .section-warck-title-cachless{color:  #2E2F42;
                         font-family: Roboto;
                         font-size: 20px;
                         font-weight: 500;
                         line-height: 1.2;
                         letter-spacing: 0.02em;}
-                    .section-warck-title-meditation{color: var(--NAVY-BLUE, #2E2F42);
+                    .section-warck-title-meditation{color:  #2E2F42;
                         font-family: Roboto;
                         font-size: 20px;
                         font-weight: 500;
                         line-height: 1.2;
                         letter-spacing: 0.02em;}
-                    .section-warck-title-taxi{color: var(--NAVY-BLUE, #2E2F42);
+                    .section-warck-title-taxi{color:  #2E2F42;
                         font-family: Roboto;
                         font-size: 20px;
                         font-weight: 500;
                         line-height: 1.2;
                         letter-spacing: 0.02em;}                  
-                    .section-warck-title-screen {color: var(--NAVY-BLUE, #2E2F42);
+                    .section-warck-title-screen {color:  #2E2F42;
                         font-family: Roboto;
                         font-size: 20px;
                         font-weight: 500;
@@ -243,21 +231,21 @@ background: var(--WHITE, #FFF);}
                         letter-spacing: 0.02em;}
                         
                         .section-warck-text-bank{
-                            color: var(--SLATE, #434455);
+                            color:  #434455;
                             font-family: Roboto;
                             font-size: 16px;
                             font-weight: 400;
                             line-height: 1.5;
                             letter-spacing: 0.02em;}
                             .section-warck-text-cachless{
-                            color: var(--SLATE, #434455);
+                            color: #434455;
                             font-family: Roboto;
                             font-size: 16px;
                             font-weight: 400;
                             line-height: 1.5;
                             letter-spacing: 0.02em;}
                     .section-warck-text-meditation {
-                        color: var(--SLATE, #434455);
+                        color:  #434455;
                         font-family: Roboto;
                         font-size: 16px;
                         font-weight: 400;
@@ -265,7 +253,7 @@ background: var(--WHITE, #FFF);}
                         letter-spacing: 0.02em;
                     }
                          .section-warck-text-taxi {
-                             color: var(--SLATE, #434455);
+                             color:  #434455;
                              font-family: Roboto;
                             font-size: 16px;
                              font-weight: 400;
@@ -273,7 +261,7 @@ background: var(--WHITE, #FFF);}
                              letter-spacing: 0.02em;
                                         }
                             .section-warck-text-screen {
-                                color: var(--SLATE, #434455);
+                                color:  #434455;
                                 font-family: Roboto;
                                 font-size: 16px;
                                 font-weight: 400;
@@ -281,7 +269,7 @@ background: var(--WHITE, #FFF);}
                                 letter-spacing: 0.02em;
                             }
                 .section-warck-text-online {
-                    color: var(--SLATE, #434455);
+                    color: #434455;
                     font-family: Roboto;
                     font-size: 16px;
                     font-weight: 400;
@@ -290,7 +278,7 @@ background: var(--WHITE, #FFF);}
                 }
 
         
-                      .footer-text-part{   color: var(--CLOUD, #F4F4FD);
+                      .footer-text-part{   color: #F4F4FD;
                          font-family: Raleway;
                          font-size: 18px;
                          font-style: normal;
@@ -299,7 +287,7 @@ background: var(--WHITE, #FFF);}
                          letter-spacing: 0.03em;
                          text-transform: uppercase;}
         
-                .footer-text {color: var(--CLOUD, #F4F4FD);
+                .footer-text {color:  #F4F4FD;
                     font-family: Roboto;
                     font-size: 16px;
                     font-weight: 400;
