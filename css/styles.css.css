@@ -43,6 +43,7 @@ background: var(--WHITE, #FFF);}
 
         .navigation-title-contacts:hover .navigation-title-contacts:focus {
             color: #404bbf;
+            font-style: normal
            
         }
          .navigation-item:hover,
@@ -66,9 +67,9 @@ background: var(--WHITE, #FFF);}
 
                 .adress-content{color: var(--SLATE, #434455);}
 
-                .adress-mail .adress-tel a:hover {color: #404bbf;}
+                .adress-mail .adress-tel:hover {color: #404bbf;}
 
-                .adress-mail .adress-tel a:focus{color: #404bbf;}
+                .adress-mail .adress-tel:focus{color: #404bbf;}
 
                 .adress-mail{
                     font-family: Roboto;
@@ -129,7 +130,7 @@ background: var(--WHITE, #FFF);}
                     letter-spacing: 0.02em;}
 
                 .section-team-content {
-                    background: #F4F4FD);}
+                    background: #F4F4FD;}
         
                 .section-team-topic {
                     color:#2E2F42;
@@ -142,8 +143,8 @@ background: var(--WHITE, #FFF);}
                     text-transform: capitalize;}
 
                      .section-team-subtopic { 
-                        border: 1px solid  #E7E9FC);
-                        background:  #FFF);}
+                        border: 1px solid  #E7E9FC;
+                        background:  #FFF;}
         
                 .section-team-img {
                     width: 264px;
