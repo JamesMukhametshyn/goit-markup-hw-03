@@ -59,10 +59,9 @@ background:  #FFF;}
                     letter-spacing: 0.02em;
                     }
         
-                
+           .adreess-main{font-style: normal;}
                     
      .adreess-main .adress-link{
-         font-style: normal;
         font-size: 16px;
          color: #434455;
         font-weight: 400;
