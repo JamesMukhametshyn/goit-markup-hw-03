@@ -77,8 +77,12 @@ background: var(--WHITE, #FFF);}
                         font-style: normal;}
 
                 .adress-content{color: var(--SLATE, #434455);}
+
+                .adress-mail .adress-tel a:hover {color: #404bbf;}
+
+                .adress-mail .adress-tel a:focus{color: #404bbf;}
                 
-                .adress-mail {
+                .adress-mail{
                     font-family: Roboto;
                     font-size: 16px;
                     font-weight: 400;
