@@ -45,8 +45,10 @@ background: var(--WHITE, #FFF);}
         margin-left: 200px;
         margin-right: 1169px;}
 
-        .navigation-title-contacts a:hover {
+        .navigation-title-contacts a:hover a:focus {
             color: #404bbf
+            font-style normal;
+            color: #404bbf;
         }
             
 
