@@ -18,10 +18,10 @@ button {
 
 .navigation-content .adress-content {
 border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
-background: var(--WHITE, #FFF);}
+background:  #FFF;}
 
 
-.titel-text{color: var(--IRIS, #4D5AE5);
+.titel-text{color:  #4D5AE5;
     font-family: 'Raleway',
         sans-serif;
     font-size: 18px;
@@ -31,7 +31,7 @@ background: var(--WHITE, #FFF);}
     text-transform: uppercase;
 }
    
-    .titel-text-part{color: var(--NAVY-BLUE, #2E2F42);
+    .titel-text-part{color:  #2E2F42;
         font-family: 'Raleway',
             sans-serif;
         font-size: 18px;
@@ -53,7 +53,6 @@ background: var(--WHITE, #FFF);}
 
     
     .navigation-item {color:#2E2F42;
-                    font-family: Roboto;
                     font-size: 16px;
                     font-weight: 500;
                     line-height: 1.5;
@@ -65,21 +64,19 @@ background: var(--WHITE, #FFF);}
                     .adress-main{
                         font-style: normal;}
 
-                .adress-content{color: var(--SLATE, #434455);}
+                .adress-content{color:  #434455;}
 
                 .adress-mail .adress-tel:hover {color: #404bbf;}
 
                 .adress-mail .adress-tel:focus{color: #404bbf;}
 
                 .adress-mail{
-                    font-family: Roboto;
                     font-size: 16px;
                     font-weight: 400;
                     line-height: 1.5;
                     letter-spacing: 0.02em;}
         
                 .adress-tel {
-                    font-family: Roboto;
                     font-size: 16px;
                     font-weight: 400;
                     line-height: 1.5;
@@ -92,7 +89,6 @@ background: var(--WHITE, #FFF);}
         .section-advantages-topic {
             color: #FFF;
                     text-align: center;
-                    font-family: Roboto;
                     font-size: 56px;
                     font-weight: 700;
                     line-height: 1.07;
@@ -115,7 +111,6 @@ background: var(--WHITE, #FFF);}
         
                 .section-advantages-title {
                     color: var(--NAVY-BLUE, #2E2F42);
-                    font-family: Roboto;
                     font-size: 20px;
                     font-weight: 500;
                     line-height: 1.2;
@@ -123,7 +118,6 @@ background: var(--WHITE, #FFF);}
         
                 .section-advantages-text {
                     color: var(--SLATE, #434455);
-                    font-family: Roboto;
                     font-size: 16px;
                     font-weight: 400;
                     line-height: 1.5;
@@ -135,7 +129,6 @@ background: var(--WHITE, #FFF);}
                 .section-team-topic {
                     color:#2E2F42;
                     text-align: center;
-                    font-family: Roboto;
                     font-size: 36px;
                     font-weight: 700;
                     line-height: 1.11;
@@ -153,7 +146,6 @@ background: var(--WHITE, #FFF);}
                 .section-team-name {
                     color: #2E2F42;
                     text-align: center;
-                    font-family: Roboto;
                     font-size: 20px;
                     font-weight: 500;
                     line-height: 1.2;
@@ -162,7 +154,6 @@ background: var(--WHITE, #FFF);}
                 .section-team-wark {
                     color:  #434455;
                     text-align: center;
-                    font-family: Roboto;
                     font-size: 16px;
                     font-weight: 400;
                     line-height: 1.5;
@@ -171,7 +162,6 @@ background: var(--WHITE, #FFF);}
                 .section-warck-topic {
                     color: var(--NAVY-BLUE, #2E2F42);
                     text-align: center;
-                    font-family: Roboto;
                     font-size: 36px;
                     font-weight: 700;
                     line-height: 1.11;
@@ -188,44 +178,37 @@ background: var(--WHITE, #FFF);}
                     flex-shrink: 0;}
         
                 .section-warck-title {color:  #2E2F42;
-                    font-family: Roboto;
                     font-size: 20px;
                     font-weight: 500;
                     line-height: 1.2;
                     letter-spacing: 0.02em;}
 
                     .section-warck-title-bank{color:  #2E2F42;
-                        font-family: Roboto;
                         font-size: 20px;
                         font-weight: 500;
                         line-height: 1.2;
                         letter-spacing: 0.02em;}
                     .section-warck-title-cachless{color:  #2E2F42;
-                        font-family: Roboto;
                         font-size: 20px;
                         font-weight: 500;
                         line-height: 1.2;
                         letter-spacing: 0.02em;}
                     .section-warck-title-meditation{color:  #2E2F42;
-                        font-family: Roboto;
                         font-size: 20px;
                         font-weight: 500;
                         line-height: 1.2;
                         letter-spacing: 0.02em;}
                     .section-warck-title-taxi{color:  #2E2F42;
-                        font-family: Roboto;
                         font-size: 20px;
                         font-weight: 500;
                         line-height: 1.2;
                         letter-spacing: 0.02em;}                  
                     .section-warck-title-screen {color:  #2E2F42;
-                        font-family: Roboto;
                         font-size: 20px;
                         font-weight: 500;
                         line-height: 1.2;
                         letter-spacing: 0.02em;}
-                    .section-warck-title-online {color: var(--NAVY-BLUE, #2E2F42);
-                        font-family: Roboto;
+                    .section-warck-title-online {color:  #2E2F42;
                         font-size: 20px;
                         font-weight: 500;
                         line-height: 1.2;
@@ -233,21 +216,18 @@ background: var(--WHITE, #FFF);}
                         
                         .section-warck-text-bank{
                             color:  #434455;
-                            font-family: Roboto;
                             font-size: 16px;
                             font-weight: 400;
                             line-height: 1.5;
                             letter-spacing: 0.02em;}
                             .section-warck-text-cachless{
                             color: #434455;
-                            font-family: Roboto;
                             font-size: 16px;
                             font-weight: 400;
                             line-height: 1.5;
                             letter-spacing: 0.02em;}
                     .section-warck-text-meditation {
                         color:  #434455;
-                        font-family: Roboto;
                         font-size: 16px;
                         font-weight: 400;
                         line-height: 1.5;
@@ -255,7 +235,6 @@ background: var(--WHITE, #FFF);}
                     }
                          .section-warck-text-taxi {
                              color:  #434455;
-                             font-family: Roboto;
                             font-size: 16px;
                              font-weight: 400;
                              line-height: 1.5;
@@ -263,7 +242,6 @@ background: var(--WHITE, #FFF);}
                                         }
                             .section-warck-text-screen {
                                 color:  #434455;
-                                font-family: Roboto;
                                 font-size: 16px;
                                 font-weight: 400;
                                 line-height: 1.5;
@@ -271,7 +249,6 @@ background: var(--WHITE, #FFF);}
                             }
                 .section-warck-text-online {
                     color: #434455;
-                    font-family: Roboto;
                     font-size: 16px;
                     font-weight: 400;
                     line-height: 1.5;
@@ -289,7 +266,6 @@ background: var(--WHITE, #FFF);}
                          text-transform: uppercase;}
         
                 .footer-text {color:  #F4F4FD;
-                    font-family: Roboto;
                     font-size: 16px;
                     font-weight: 400;
                     line-height: 1.5;
