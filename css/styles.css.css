@@ -82,10 +82,10 @@ background:  #FFF;}
         
                 .adress-tel {
                     color: #434455;
-                    font-size: 16px;
-                    font-weight: 400;
-                    line-height: 1.5;
-                    letter-spacing: 0.02em;}
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 1.5;
+                        letter-spacing: 0.02em;}
 
         .section-advantages-content {
         background:  #2E2F42;
@@ -100,8 +100,6 @@ background:  #FFF;}
                     letter-spacing: 0.02em;
                 }
         
-/* .section-advantages-main-backgraund{border-radius: 4px;
-                    background: #4D5AE5; */
                    
 
 .section-advantages-main-button:focus,
@@ -117,19 +115,6 @@ background:  #FFF;}
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;}
-
-
-                /* .section-advantages-main-button {
-                    border-radius: 4px;
-                        background: #4D5AE5;
-                    background: #4d5ae5;
-                    color: #ffffff;
-                    font-family: 'Roboto', sans-serif;
-                    font-size: 16px;
-                    font-weight: 500;
-                    line-height: 1.5;
-                    letter-spacing: 0.04em;
-                    text-transform: capitalize; */
                     
                 
         
