@@ -61,22 +61,28 @@ background:  #FFF;}
         
                 
                     
-                    .adress-main{
-                        font-style: normal;}
+ .adreess-main:hover .adreess-main:focus {
+     color: #404bbf;
+     font-style: normal;}
 
-                .adress-content{color:  #434455;}
-
-                .adress-mail .adress-tel:hover {color: #404bbf;}
-
-                .adress-mail .adress-tel:focus{color: #404bbf;}
+                  .adress-mail:hover,
+                  .adress-mailm:focus {
+                      color: #404bbf;
+                  }
+                 .adress-tel:hover,
+                 .adress-tel:focus {
+                     color: #404bbf;
+                 }
 
                 .adress-mail{
+                    color: #434455;
                     font-size: 16px;
                     font-weight: 400;
                     line-height: 1.5;
                     letter-spacing: 0.02em;}
         
                 .adress-tel {
+                    color: #434455;
                     font-size: 16px;
                     font-weight: 400;
                     line-height: 1.5;
