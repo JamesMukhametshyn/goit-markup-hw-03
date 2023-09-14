@@ -100,24 +100,25 @@ background:  #FFF;}
                     letter-spacing: 0.02em;
                 }
         
-                .section-advantages-main-backgraund{border-radius: 4px;
+.section-advantages-main-backgraund{border-radius: 4px;
                     background: #4D5AE5;
                    }
 
-.section-advantages-main-button:focus {
-    background-color: #404BBF
-}
+.section-advantages-main-button:focus,
 .section-advantages-main-button:hover {
     background-color: #404BBF
 }
 
+
                 .section-advantages-main-button {
+                    background: #4d5ae5;
                     color: #ffffff;
                     font-family: 'Roboto', sans-serif;
                     font-size: 16px;
                     font-weight: 500;
                     line-height: 1.5;
                     letter-spacing: 0.04em;
+                    text-transform: capitalize;
                     
                 }
         
