@@ -178,6 +178,8 @@ background:  #FFF;}
                         border: 1px solid #E7E9FC;
                         background:  #FFF;}
 
+                        .section-wark-content{background: #FFF;}
+
                  .section-warck-topic {
                      color: var(--NAVY-BLUE, #2E2F42);
                      text-align: center;
