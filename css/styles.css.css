@@ -61,12 +61,11 @@ background:  #FFF;}
         
                 
                     
- .adreess-main:hover .adreess-main:focus {
-     color: #404bbf;
+     .adreess-main:{
      font-style: normal;}
 
                   .adress-mail:hover,
-                  .adress-mailm:focus {
+                  .adress-mail:focus {
                       color: #404bbf;
                   }
                  .adress-tel:hover,
