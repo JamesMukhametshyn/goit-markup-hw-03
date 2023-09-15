@@ -174,7 +174,7 @@ background:  #FFF;}
                      text-transform: capitalize;
                  }
                  .section-warck-subtopic {
-                    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+                    border:  solid var(--CORNFLOWER, #E7E9FC);
                         background: var(--WHITE, #FFF);
                  }
         
