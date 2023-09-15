@@ -129,12 +129,8 @@ background:  #FFF;}
                     text-transform: capitalize;}
 
                      .section-team-subtopic { 
-                        /* border: 1px solid  #E7E9FC; */
                         background:  #FFF;}
         
-                /* .section-team-img {
-                    width: 264px;
-                    height: 260px;} */
         
                 .section-team-name {
                     color: #2E2F42;
@@ -155,7 +151,6 @@ background:  #FFF;}
                 
 
                       .section-team-subtopic { 
-                        /* border: 1px solid #E7E9FC; */
                         background:  #FFF;}
 
                   
@@ -170,13 +165,9 @@ background:  #FFF;}
                      text-transform: capitalize;
                  }
                  .section-warck-subtopic {
-                    /* border: 1px solid  #E7E9FC; */
                         background:  #FFF;
                  }
         
-                /* .section-warck-img {
-                    width: 360px;
-                    height: 300px; */
                    
 
                     .section-warck-title-type{color:  #2E2F42;
