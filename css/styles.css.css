@@ -136,9 +136,9 @@ background:  #FFF;}
                         border: 1px solid  #E7E9FC;
                         background:  #FFF;}
         
-                .section-team-img {
+                /* .section-team-img {
                     width: 264px;
-                    height: 260px;}
+                    height: 260px;} */
         
                 .section-team-name {
                     color: #2E2F42;
@@ -178,9 +178,9 @@ background:  #FFF;}
                         background:  #FFF;
                  }
         
-                .section-warck-img {
+                /* .section-warck-img {
                     width: 360px;
-                    height: 300px;
+                    height: 300px; */
                    }
 
                     .section-warck-title-type{color:  #2E2F42;
