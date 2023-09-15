@@ -76,11 +76,11 @@ background:  #FFF;}
 
         .section-advantages-content {
         background:  #2E2F42;
-        text-align: center;}
+        /* text-align: center;} */}
                
         .section-advantages-topic {
             color: #FFF;
-                    text-align: center;
+                    /* text-align: center; */
                     font-size: 56px;
                     font-weight: 700;
                     line-height: 1.07;
