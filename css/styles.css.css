@@ -14,11 +14,29 @@ a {text-decoration: none;
 button {
     cursor: pointer;  
 }
+p, h1, h2, h3{
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
+ul, ol{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+img{
+    display: block;
+}
 
 .navigation-content {
 background:  #FFF;}
 
+.container{
+    width: 1158px;
+    padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
+}
 
 .titel-text{color:  #4D5AE5;
     font-family: 'Raleway',
@@ -72,10 +90,20 @@ background:  #FFF;}
                     font-style: normal;
                   }
                  
+.advantage-container{padding-left: 472px;
+padding-top: 188px;
+padding-right: 472px;
+padding-bottom: 292px;}
 
         .section-advantages-content {
         background:  #2E2F42;
         text-align: center;}
+
+        .advantage{
+            padding-top: 120px;
+            padding-bottom: 120px;
+
+        }
                
         .section-advantages-topic {
             color: #FFF;
@@ -84,6 +112,9 @@ background:  #FFF;}
                     font-weight: 700;
                     line-height: 1.07;
                     letter-spacing: 0.02em;
+                    margin-bottom: 48px;
+                    max-width: 496px;
+                    
                 }
         
                    
@@ -107,7 +138,8 @@ background:  #FFF;}
                     font-size: 20px;
                     font-weight: 500;
                     line-height: 1.2;
-                    letter-spacing: 0.02em;}
+                    letter-spacing: 0.02em;
+                margin-bottom: 8px;}
         
                 .section-advantages-text {
                     color:#434455;
@@ -117,6 +149,7 @@ background:  #FFF;}
                     letter-spacing: 0.02em;}
 
                 .section-team-content {
+                    padding-top: 120px;
                     background: #F4F4FD;}
         
                 .section-team-topic {
@@ -130,7 +163,9 @@ background:  #FFF;}
 
                      .section-team-subtopic { 
                         background:  #FFF;}
-        
+        .section-team-img{
+            padding-bottom: 32px;
+        }
         
                 .section-team-name {
                     color: #2E2F42;
@@ -153,7 +188,9 @@ background:  #FFF;}
                       .section-team-subtopic { 
                         background:  #FFF;}
 
-                  
+                  .portfolio{
+                    padding-top: 120px;
+                  }
 
                  .section-warck-topic {
                      color:#2E2F42;
@@ -163,7 +200,12 @@ background:  #FFF;}
                      line-height: 1.11;
                      letter-spacing: 0.02em;
                      text-transform: capitalize;
+                     margin-bottom: 72px;
                  }
+
+                .section-warck-img{
+                    margin-bottom: 32px;}
+
                  .section-warck-subtopic {
                         background:  #FFF;
                  }
@@ -193,9 +235,16 @@ background:  #FFF;}
                          line-height: 1.17;
                          letter-spacing: 0.03em;
                          text-transform: uppercase;}
-        
+
+                       
+
+        .footer{
+            padding-top: 101px;
+            padding-bottom: 100px;}
+
                 .footer-text {color:  #F4F4FD;
                     font-size: 16px;
                     font-weight: 400;
                     line-height: 1.5;
-                    letter-spacing: 0.02em;}
+                    letter-spacing: 0.02em;
+            }
