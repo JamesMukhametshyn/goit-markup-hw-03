@@ -38,6 +38,9 @@ padding-right: 15px;
 margin: 0 auto;
 }
 
+.nav-container{padding-top: 25px;
+padding-bottom: 25px;}
+
 .titel-text{color:  #4D5AE5;
     font-family: 'Raleway',
         sans-serif;
