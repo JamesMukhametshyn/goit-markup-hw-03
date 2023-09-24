@@ -69,7 +69,28 @@ padding-bottom: 25px;}
         .navigation-item:focus {
                             color: #404bbf;
                         }
+.nav-menu{
+display: flex;
+gap: 75px;
+}
 
+.header-menu{
+    display: flex;
+    
+}
+
+.nav-item{
+display: flex;
+gap: 20px;
+align-items: center;
+}                        
+
+.nav-link{
+    display: flex;
+    gap: 40px;
+    margin-left: auto;
+    align-items: center;
+}
     
     .navigation-item {color:#2E2F42;
                     font-size: 16px;
@@ -122,19 +143,24 @@ padding-bottom: 292px;}
         
                    
 
-.section-advantages-main-button:focus,
-.section-advantages-main-button:hover {
+.section-button:focus,
+.section-button:hover {
     background-color: #404BBF
 }
-.section-advantages-main-button {
+.section-button {
     background: #4d5ae5;
     color: #fff;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.04em;}
+    letter-spacing: 0.04em;
+    border: none;
+padding: 16px 32px;}
                     
-                
+      .section-advantages-conteiner{
+        display: flex;
+        gap: 24px;
+      }
         
                 .section-advantages-title {
                     color:#2E2F42;
@@ -150,7 +176,11 @@ padding-bottom: 292px;}
                     font-weight: 400;
                     line-height: 1.5;
                     letter-spacing: 0.02em;}
-
+.section-team-container{
+    display: flex;
+    gap: 24px;
+    padding-bottom: 120px;
+}
                 .section-team-content {
                     padding-top: 120px;
                     background: #F4F4FD;}
@@ -164,7 +194,8 @@ padding-bottom: 292px;}
                     letter-spacing: 0.02em;
                     text-transform: capitalize;}
 
-                     .section-team-subtopic { 
+                     .section-team-subtopic {
+                        padding-bottom: 24px; 
                         background:  #FFF;}
         .section-team-img{
             padding-bottom: 32px;
