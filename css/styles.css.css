@@ -76,6 +76,8 @@ gap: 75px;
 
 .header-menu{
     display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e7e9fc
     
 }
 
