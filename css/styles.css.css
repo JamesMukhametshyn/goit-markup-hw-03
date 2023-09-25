@@ -137,7 +137,8 @@ padding-bottom: 292px;}
         }
 
         .visually-hidden{
-         visibility: hidden;
+        position: fixed;
+            transform: scale(0);
         }
 
                 .advantages-item{
