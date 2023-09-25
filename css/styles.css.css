@@ -14,7 +14,8 @@ a {text-decoration: none;
 button {
     cursor: pointer;  
     display: block;
-    min-width: 169px
+    min-width: 169px;
+    border-radius: 4px;
 }
 p, h1, h2, h3{
     margin-top: 0;
