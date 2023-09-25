@@ -42,7 +42,9 @@ margin: 0 auto;
 }
 
 .nav-container{padding-top: 25px;
-padding-bottom: 25px;}
+padding-bottom: 25px;
+border-bottom: 1px solid #e7e9fc;
+align-items: center;}
 
 .titel-text{color:  #4D5AE5;
     font-family: 'Raleway',
@@ -81,7 +83,7 @@ align-items: center;
 .header-menu{
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #e7e9fc
+    
     
 }
 
@@ -226,9 +228,7 @@ padding: 16px 32px;}
                         background:  #FFF;}
         .section-team-img{
             padding-bottom: 32px;
-            display: block,;
-            max-width: 100%; 
-            height: auto;
+            
         }
         
                 .section-team-name {
@@ -279,10 +279,7 @@ padding: 16px 32px;}
 }
 
                 .section-warck-img{
-                    margin-bottom: 32px;
-                display: block, ;
-                    max-width: 100%;
-                    height: auto;}
+                    margin-bottom: 32px;}
 
                  .section-warck-subtopic {
                         background:  #FFF;
