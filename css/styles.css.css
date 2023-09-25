@@ -329,6 +329,8 @@ padding: 16px 32px;}
                          text-transform: uppercase;}
 
                .footer-logo{
+                display: inline-block;
+                margin-bottom: 16px;
                
                }
 
@@ -341,5 +343,5 @@ padding: 16px 32px;}
                     font-weight: 400;
                     line-height: 1.5;
                     letter-spacing: 0.02em;
-                    margin-top: 17px;
+                    
             }
