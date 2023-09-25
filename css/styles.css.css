@@ -247,6 +247,11 @@ padding: 16px 32px;}
             padding-bottom: 32px;
             
         }
+
+                 .team-wrap {
+                    padding-top: 32px;
+                        padding-bottom: 32px;
+                 }
         
                 .section-team-name {
                     color: #2E2F42;
