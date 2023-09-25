@@ -41,10 +41,10 @@ padding-right: 15px;
 margin: 0 auto;
 }
 
-.nav-container{padding-top: 25px;
-padding-bottom: 25px;
-border-bottom: 1px solid #e7e9fc;
-align-items: center;}
+.nav-container{padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
+    align-items: center;}
 
 .titel-text{color:  #4D5AE5;
     font-family: 'Raleway',
