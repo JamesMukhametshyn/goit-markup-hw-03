@@ -94,8 +94,11 @@ align-items: center;
 
 .nav-item{
 display: flex;
-gap: 20px;
-align-items: center;
+    align-items: center;
+    gap: 40px;
+    margin: auto;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }      
 
 .nav-item-link{
