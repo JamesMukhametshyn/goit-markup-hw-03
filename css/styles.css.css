@@ -54,6 +54,7 @@ align-items: center;}
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
    
     .titel-text-part{color:  #2E2F42;
@@ -83,6 +84,10 @@ align-items: center;
 .header-menu{
     display: flex;
     align-items: center;
+    gap: 40px;
+        margin: auto;
+        padding-top: 24px;
+        padding-bottom: 24px;
     
     
 }
