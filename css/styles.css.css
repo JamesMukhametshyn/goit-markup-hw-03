@@ -86,7 +86,11 @@ align-items: center;
 display: flex;
 gap: 20px;
 align-items: center;
-}                        
+}      
+
+.nav-item-link{
+    margin-right: 40px;
+}
 
 .nav-link{
     display: flex;
