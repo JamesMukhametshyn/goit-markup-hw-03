@@ -128,8 +128,8 @@ display: flex;
                     font-style: normal;
                   }
                  
-.advantage-container{display: flex;
-    justify-content: center;
+.advantage-container{
+  
 }
 
         .section-advantages-content {
@@ -171,6 +171,7 @@ display: flex;
                     letter-spacing: 0.02em;
                     margin-bottom: 48px;
                     max-width: 496px;  
+                    margin: 0 auto;
                    
                 }
         .section-team{padding: 120px 0 120px}
@@ -189,7 +190,8 @@ display: flex;
     line-height: 1.5;
     letter-spacing: 0.04em;
     border: none;
-padding: 16px 32px;}
+padding: 16px 32px;
+margin: 0 auto;}
                     
       .section-advantages-conteiner{
         display: flex;
