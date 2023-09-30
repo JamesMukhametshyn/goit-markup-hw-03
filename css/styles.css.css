@@ -181,7 +181,7 @@ display: flex;
     background-color: #404BBF
 }
 .section-button {
-    
+    height: 56px;
     background: #4d5ae5;
     color: #fff;
     font-size: 16px;
