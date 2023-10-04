@@ -130,18 +130,20 @@ display: flex;
                     font-style: normal;
                   }
                  
-.advantage-container{max-width: 1440px;
+.advantage-container{
 }
     
 
 
         .section-advantages-content {background: #2E2F42;
+        max-width: 1440px;
             padding-top: 188px;
             padding-bottom: 188px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/backgraund-img.jpg);
             background-repeat: no-repeat;
             background-position: center;
-            background-size: cover;}
+            background-size: cover;
+        }
         
 
         .advantage{
