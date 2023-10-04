@@ -130,7 +130,7 @@ display: flex;
                     font-style: normal;
                   }
                  
-.advantage-container{
+.advantage-container{max-width: 1440px;
 }
     
 
