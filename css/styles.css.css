@@ -401,3 +401,9 @@ padding-bottom: 188px;}
 .link-soc-profesion:hover,
 .link-soc-profesion:focus {
     background-color: #404bbf;}
+
+    .soc-wrap{display: flex;
+        gap: 40px;
+        margin-left: auto;
+        align-items: center;
+    }}
