@@ -406,4 +406,17 @@ padding-bottom: 188px;}
         gap: 40px;
         margin-left: auto;
         align-items: center;
-    }}
+    }
+        .conteiner-icon {
+            display: flex;
+    
+            align-items: center;
+            justify-content: center;
+            height: 112px;
+            background-color: #f4f4fd;
+            border-radius: 4px;
+            margin-bottom: 8px;
+            border-radius: 4px;
+            border: 1px solid #8E8F99;
+    
+        }
