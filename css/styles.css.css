@@ -381,3 +381,9 @@ padding-bottom: 188px;}
     height: 100%;
     background: #4D5AE5"
 }
+
+.icon-link{
+    display: flex;
+        align-items: center;
+        gap: 24px;
+}
