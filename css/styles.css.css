@@ -552,8 +552,10 @@ padding-bottom: 188px;}
                 align-items: center;
                 gap: 16px;}
 
-            .footer-subbox{
+            .footer-subbox {
             display: flex;
              align-items: baseline;
                         }
- .footer-box{margin-right: 120px;}                       
+ .footer-box{
+    margin-right: 120px;
+}                       
