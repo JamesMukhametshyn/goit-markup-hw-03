@@ -477,7 +477,7 @@ padding-bottom: 188px;}
 .link-soc-profesion:focus {
     background-color: #404bbf;}
 
-    .soc-wrap{display: flex;
+    .soc-wrap{
         gap: 40px;
         margin-left: auto;
         align-items: center;
