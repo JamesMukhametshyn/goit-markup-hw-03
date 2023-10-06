@@ -83,8 +83,8 @@ margin: 0 auto;
                         }
 .navigation-item:hover,
 .navigation-item:focus {
-    color: #404bbf;
-    color: var(--color-brend-hover);}
+    color: var(--color-brend-hover);
+color: #404bbf;}
 
         .navigation-item{
             position: relative;}
