@@ -83,6 +83,7 @@ margin: 0 auto;
                         }
 .navigation-item:hover,
 .navigation-item:focus {
+    color: #404bbf;
     color: var(--color-brend-hover);}
 
         .navigation-item{
