@@ -45,7 +45,9 @@ margin: 0 auto;
     border-bottom: 1px solid #e7e9fc;
 box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
-
+.navigation-item.item-navigation{
+    color: #404bbf;
+}
 
 
 .titel-text{color:  #4D5AE5;
@@ -173,7 +175,7 @@ display: flex;
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
-        }
+            margin: auto;}
         
 
         .advantage{
@@ -310,7 +312,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
                 
 
                       .section-team-subtopic { 
-                        background-color: var(--color-hero-title-text);
+                        background-color: #fff;
                         
                             width: calc((100% - 72px) / 4);
                             border-radius: 0px 0px 4px 4px;
@@ -544,7 +546,7 @@ padding-bottom: 188px;}
                     fill: #f4f4fd;
                 }
 
-                .footer-box{display: flex;
+                .footer-box{
                 justify-content: center;
                 align-items: center;
                 gap: 16px;}
