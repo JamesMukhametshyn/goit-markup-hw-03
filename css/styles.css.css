@@ -572,6 +572,7 @@ background-color: rgba(46, 47, 66, 0.40);
 opacity: 0;
 visibility: hidden;
 pointer-events: none;
+transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .is-open{
@@ -583,13 +584,15 @@ pointer-events: none;
 .modal{
     width: 408px;
     height: 584px;
-    border-radius: 15px;
+    border-radius: 4px;
     background-color: #FCFCFC;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 40px;
+    min-height: 584px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .modal-btn{
     background-color: transparent;
