@@ -478,6 +478,64 @@
             </div>
             </div>
     </footer>
+    <div class="backdrop is-open">
+        <div class="modal">
+            <button type="button" class="modal-btn">
+                <svg class="modal-btn-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-close" ></use>
+                </svg> 
+            </button>
+            <p class="modal-title modal-title-style">
+            Leave your contacts and we will call you back
+            </p>
+            
+            <form class="modal-form">
+                <div class="modal-fild">
+                <label for="user-name" class="modal-lable">Name</label>
+                <div class="input-wrap">
+                    <input type="text" name="user-name" class="modal-input" id="user-name" />
+                    <svg class="modal-icon" width="16" height="24">
+                        <use href="./images/icons.svg#icon-person"></use>
+                    </svg>
+                </div>
+                <div class="modal-fild">
+                <label for="user-phone" class="modal-lable">Phone</label>
+                <input type="tel" 
+                name="user-phone" 
+                class="modal-input"
+                id="user-phone"
+                />
+                <svg class="modal-icon" width="16" height="24">
+                    <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+                </div>
+                <div class="modal-fild">
+                <label for="user-email" class="modal-lable">Email</label>
+                <input type="email" 
+                name="user-email" 
+                class="modal-input"
+                required
+                id="user-email"
+                />
+                <svg class="modal-icon" width="16" height="24">
+                    <use href="./images/icons.svg#icon-email"></use>
+                </svg>
+                </div>
+
+                <div class="modal-fild">
+                    <label for="user-text" class="modal-lable">Comment</label>
+                    <textarea name="user-text" 
+                    id="user-text" 
+                    class="modal-textarea" 
+                    placeholder="Text input "></textarea>
+                   
+                  
+                </div>
+                <button type="submit" 
+                class="modal-btn-input">Send</button>
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>
