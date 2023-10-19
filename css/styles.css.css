@@ -181,8 +181,8 @@ display: flex;
         
 
         .advantage{
-            padding-top: 120px;
-            padding-bottom: 120px;
+            padding-top: 96px;
+            padding-bottom: 96px;
 
         }
 
@@ -264,18 +264,19 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
                     letter-spacing: 0.02em;
                 max-width: 288px;}
 .team-item{
-    width: calc((100% -2 4px * 3) /4 );
+    width: 100%;
     border-radius: 0px 0px 4px 4px;
     
 }
 
 .section-team-container{
-    display: flex;
-    gap: 24px;
+    /* display: flex;
+    flex-wrap: wrap; */
+    gap: 72px;
     
 }
                 .section-team-content {
-                background-color: #F4F4FD;;
+                background-color: #F4F4FD;
                     padding: 120px 0;}
         
                 .section-team-topic {
@@ -291,13 +292,17 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
             }
 
         .section-team-subtopic {
-                        background:  #FFF;}
+                        background:  #FFF;
+                    min-width: 264px;
+                margin-bottom: 72px;}
 
         .section-team-img{ }
 
                  .team-wrap {
                     padding-top: 32px;
                         padding-bottom: 32px;
+                        min-width: 264px;
+                        
                  }
         
                 .section-team-name {
@@ -933,6 +938,10 @@ color: #ffffff;
     font-size: 16px;
 }
 }
+
+
+
+
 @media screen and (min-width: 768px) {
     .container {
         max-width: 766px;
@@ -956,16 +965,26 @@ color: #ffffff;
 .conteiner-icon {
   
 }
-  .advantage {
-      padding-top: 96px;
-      padding-bottom: 96px;
+.section-team-subtopic team-item {
+    width: calc((100% - 88px) / 2);
+    padding: 0;
 }
+.section-team-container{
+    gap: 24px 64px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
 }
 @media screen and (min-width: 1200px) {
     .container {
         max-width: 1166px;
     }
     .advantage{
+        padding-top: 120px;
+            padding-bottom: 120px;
      
     }
 
@@ -986,4 +1005,9 @@ color: #ffffff;
                         margin-bottom: 8px;
                         border-radius: 4px;
                         border: 1px solid #8E8F99;              
-}}
+}
+.section-team-subtopic team-item {
+    width: calc((100% - 72px) / 4);
+    padding: 0;
+}
+}
