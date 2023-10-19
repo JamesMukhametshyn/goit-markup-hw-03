@@ -36,9 +36,10 @@ background:  #FFF;}
 
 .container{
     width: 1158px;
-    padding-left: 15px;
-padding-right: 15px;
+    padding-left: 16px;
+padding-right: 16px;
 margin: 0 auto;
+
 }
 
 .nav-container{
@@ -175,7 +176,8 @@ display: flex;
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
-            margin: auto;}
+            margin: auto;
+        }
         
 
         .advantage{
@@ -198,7 +200,8 @@ display: flex;
         }
 
                 .advantages-item{
-                    width: calc((100% - 24px * 3) / 4);
+                    width: 100%;
+
                     
                 }
                
@@ -238,7 +241,9 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
                     
       .section-advantages-conteiner{
         display: flex;
-        gap: 24px;
+        gap: 72px;
+        flex-wrap: wrap;
+        
       }
         
                 .section-advantages-title {
@@ -247,14 +252,17 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
                     font-weight: 500;
                     line-height: 1.2;
                     letter-spacing: 0.02em;
-                margin-bottom: 8px;}
+                margin-bottom: 8px;
+                
+            }
         
                 .section-advantages-text {
                     color:#434455;
                     font-size: 16px;
                     font-weight: 400;
                     line-height: 1.5;
-                    letter-spacing: 0.02em;}
+                    letter-spacing: 0.02em;
+                max-width: 288px;}
 .team-item{
     width: calc((100% -2 4px * 3) /4 );
     border-radius: 0px 0px 4px 4px;
@@ -311,15 +319,15 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
         
                 
 
-                      .section-team-subtopic { 
-                        background-color: #fff;
-                        
-                            width: calc((100% - 72px) / 4);
-                            border-radius: 0px 0px 4px 4px;
-                            box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-                        
-                                0px 1px 1px rgba(46, 47, 66, 0.16),
-                                0px 2px 1px rgba(46, 47, 66, 0.08);}
+.section-team-subtopic { 
+  background-color: #fff;
+  
+      width: calc((100% - 72px) / 4);
+      border-radius: 0px 0px 4px 4px;
+      box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+  
+          0px 1px 1px rgba(46, 47, 66, 0.16),
+          0px 2px 1px rgba(46, 47, 66, 0.08);}
                         
 
                   .portfolio{
@@ -497,7 +505,7 @@ padding-bottom: 188px;}
             margin-bottom: 8px;
             border-radius: 4px;
             border: 1px solid #8E8F99;
-    
+    display: none;
         }
         .soc-footer-box{
             align-items: center;
@@ -902,4 +910,63 @@ color: #ffffff;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     background-color: #4d5ae5;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+
+@media screen and (min-width: 375px) {
+    .container {
+        max-width: 318px;
+    }
+    .conteiner-icon{
+     
+    }
+     
+}
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 766px;
+    }
+    .advantages-item{
+        width: calc((100% - 88px) / 2);
+        padding: 0;
+    }
+    .section-advantages-title{
+       
+
+    }
+    .section-advantages-text{
+
+    }
+.section-advantages-conteiner{
+    gap: 24px 72px;
+}
+.conteiner-icon {
+  
+}
+}
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1166px;
+    }
+
+        .advantages-item {
+            width: calc((100% - 176px) / 3);
+            padding: 0;
+        }
+
+                .conteiner-icon {
+                    display: block;
+                    display: flex;
+                    
+                        align-items: center;
+                        justify-content: center;
+                        height: 112px;
+                        background-color: #f4f4fd;
+                        border-radius: 4px;
+                        margin-bottom: 8px;
+                        border-radius: 4px;
+                        border: 1px solid #8E8F99;
+              
 }
